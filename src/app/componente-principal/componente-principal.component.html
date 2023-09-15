@@ -1,0 +1,7 @@
+<button mat-raised-button (click)="abrirDialogo()">Abrir Diálogo</button>
+
+<div *ngIf="datosFormulario">
+  <p><strong>Nombre:</strong> {{datosFormulario.nombre}}</p>
+  <p><strong>Email:</strong> {{datosFormulario.email}}</p>
+  <p><strong>Dirección:</strong> {{datosFormulario.direccion}}</p>
+</div>
